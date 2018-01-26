@@ -1,6 +1,6 @@
 #content {
     width: 100%;
-    min-width: 667px;
+    min-width: 320px;
     height: 680px;
     /*background-image: url(airport.jpg);
     background-repeat: no-repeat;*/
@@ -10,22 +10,25 @@
     border: 3px solid #3e28b7;
 }
 
-#logo {
+#titleBox {
     position: relative;
+    top: 40px;
     width: 60%;
-    margin: -35px auto 10px auto;
-    padding-top: 20px;
+    margin: 0 auto 0 auto;
     text-align: center;
     font-family: "Poiret One", cursive;
     font-size: 28px;
     font-weight: 900;
+    background-color: #a15ba3;
+    border: 2px solid #000;
 }
 
 .testItemBox {
     position: relative;
-    width: 610px;
-    margin: 20px auto 10px auto;
-    overflow: hidden;
+    width: 90%;
+    margin: 70px auto 10px auto;
+    /* overflow: hidden; */
+    overflow: scroll;
     height: 460px;
     background-color: #fff;
     border-radius: 10px;
