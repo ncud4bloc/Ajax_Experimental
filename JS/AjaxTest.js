@@ -6,17 +6,14 @@ $(function(){
     
     $('#titleBox').on('click',function(){
         
-        /* This is where my Ajax code goes */
-        var note1 = '<p>'
-        var note2 = 'This is where my Ajax code goes</p></ br>';
-        var note3 = note1 + note2;
-        $('.testItemBox').html(note3);
-        for(var i = 0; i < 18; i++){
-            note1 += '......';
-            note3 = note1 + note2;
-            $('.testItemBox').append(note3); 
-        }
-        /* This is where my Ajax code goes */
+    // Begin Method 1: Load Using JavaScript
+        var xhr = new XMLHttpRequest();
+        xhr.onload = function(){
+            document.getElementById('insert').innerHTML = xhr.responseText;
+        };
+        xhr.open('GET', 'HTML/addMyResumeObjective.html', true);
+        xhr.send(null);
+    // End Method 1
         
     });
 
