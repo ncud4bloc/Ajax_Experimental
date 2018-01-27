@@ -1,0 +1,20 @@
+#para1, #para2, #para3, #para4, #objective {
+    height: auto;
+    text-align: left;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    color: #f00;
+    font-size: 24px;
+    padding: 0 30px 0 20px;
+    background-color: #bbb;
+}
+
+#load, #eMessage {
+    height: auto;
+    text-align: center;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    color: #f00;
+    font-size: 36px;
+    padding: 80px 30px 0 20px;
+    background-color: #bbb;
+    margin: 0 auto 0 auto;
+}
